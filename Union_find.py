@@ -1,5 +1,8 @@
 '''
 Python Code for Union-Find: using DFS Recursion
+   / [2]\        / [6]\
+ [1]    [4]  [5]       [8]
+     \[3]/       \ [7] /
 '''
 
 from collections import defaultdict
@@ -47,6 +50,13 @@ union_parent(3, 4)
 union_parent(5, 6)
 union_parent(6, 7)
 union_parent(7, 8)
+
+
+'''
+   / [2]\        / [6]\
+ [1]    [4]  [5]       [8]
+     \[3]/       \ [7] /
+'''
 
 print("Are vertex 1 and vertex 5 in a same Graph?")
 print(in_sameGraph(1, 5)[1])
