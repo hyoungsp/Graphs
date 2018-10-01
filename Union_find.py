@@ -1,8 +1,5 @@
 '''
 Python Code for Union-Find: using DFS Recursion
-   / [2]\        / [6]\
- [1]    [4]  [5]       [8]
-     \[3]/       \ [7] /
 '''
 
 from collections import defaultdict
