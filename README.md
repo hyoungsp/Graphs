@@ -1,3 +1,3 @@
 # Graphs
 
-Explored graph algorithms in Python
+## Explored graph algorithms in Python
